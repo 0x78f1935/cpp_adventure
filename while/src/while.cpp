@@ -7,7 +7,7 @@ int main() {
 
 	while (i <= 5) {
 		cout << "Hello: " << i << endl;
-		i ++;
+		i++;
 	}
 
 	cout << "Program quitting..." << endl;
