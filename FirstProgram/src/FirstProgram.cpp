@@ -1,0 +1,9 @@
+// My first program in cpp writen 18/8/208
+
+#include <iostream>
+using namespace std;
+
+int main() {
+	cout << "Hello World!" << endl; // prints !!!Hello World!!!
+	return 0;
+}
