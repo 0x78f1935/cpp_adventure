@@ -4,7 +4,7 @@ using namespace std;
 
 void Cat::speak() {
 
-	if(happy){
+	if (happy) {
 		cout << "Meow!" << endl;
 	} else {
 		cout << "CHHHHHHHHHH!!!!!" << endl;
@@ -12,7 +12,7 @@ void Cat::speak() {
 
 }
 
-void Cat::makeHappy(){
+void Cat::makeHappy() {
 	happy = true;
 }
 
