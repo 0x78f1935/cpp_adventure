@@ -17,12 +17,8 @@ int getInput() {
 
 }
 
-int main() {
-
-	showMenu();
-	int input = getInput();
-
-	switch (input) {
+void processSelection(int selection) {
+	switch (selection) {
 	case 1:
 		cout << "Searching ..." << endl;
 		break;
@@ -35,6 +31,13 @@ int main() {
 	default:
 		cout << "Please select an item from the menu." << endl;
 	}
+}
+
+int main() {
+
+	showMenu();
+	int selection = getInput();
+	processSelection(selection);
 
 	return 0;
 }
