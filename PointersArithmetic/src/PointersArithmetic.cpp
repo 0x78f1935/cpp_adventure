@@ -3,9 +3,8 @@ using namespace std;
 
 int main() {
 
-
 	const int NSTRINGS = 5;
-	string texts[NSTRINGS] = {"one", "two", "three", "four", "five"};
+	string texts[NSTRINGS] = { "one", "two", "three", "four", "five" };
 
 	string *pTexts = texts;
 
@@ -31,7 +30,7 @@ int main() {
 
 	cout << elements << endl;
 
-	pTexts += NSTRINGS/2;
+	pTexts += NSTRINGS / 2;
 	cout << *pTexts << endl;
 
 	return 0;
