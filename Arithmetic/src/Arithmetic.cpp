@@ -37,8 +37,5 @@ int main() {
 	double equation = ((5 / 4) % 2) + (2.3 * 6); // 5/4=2; 2%2=0; 2.3*6=14.8;
 	cout << equation << endl;
 
-	int time = 920;
-	clock(time);
-
 	return 0;
 }
