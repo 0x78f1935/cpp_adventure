@@ -13,7 +13,8 @@ int main() {
 
 	cout << endl;
 
-	for (unsigned int i = 0; i < sizeof(texts) / sizeof(string); i++, pTexts++) {
+	for (unsigned int i = 0; i < sizeof(texts) / sizeof(string);
+			i++, pTexts++) {
 		cout << *pTexts << " " << flush;
 	}
 
