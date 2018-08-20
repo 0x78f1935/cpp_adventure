@@ -74,4 +74,4 @@ The applications you find here are part of a cpp course.
 * [Static Keyword](https://github.com/Annihilator708/cpp_adventure/tree/master/Static/src)
 
 ### Extra
-* [Bit Shifting]()
+* [Bit Shifting](https://github.com/Annihilator708/cpp_adventure/tree/master/BitShifting/src)
