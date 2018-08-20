@@ -3,7 +3,10 @@ using namespace std;
 
 class Animal {
 public:
-	void speak() { cout << "Grrrr" << endl; } ;
+	void speak() {
+		cout << "Grrrr" << endl;
+	}
+	;
 };
 
 class Cat: public Animal {
@@ -11,13 +14,21 @@ private:
 	string name;
 
 public:
-	void setName(string newName) {name = newName;};
-	void jump() { cout << name << " is jumping!" << endl;}
+	void setName(string newName) {
+		name = newName;
+	}
+	;
+	void jump() {
+		cout << name << " is jumping!" << endl;
+	}
 };
 
 class Tiger: public Cat {
 public:
-	void attackAntelope() { cout << "Tiger is attacking the antelope!" << endl;};
+	void attackAntelope() {
+		cout << "Tiger is attacking the antelope!" << endl;
+	}
+	;
 };
 
 int main() {
