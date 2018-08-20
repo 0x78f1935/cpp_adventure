@@ -72,3 +72,6 @@ The applications you find here are part of a cpp course.
 ### Odds and Ends: Twos Complement and Static Variables
 * [Twos Complement](https://github.com/Annihilator708/cpp_adventure/tree/master/TwosComplement/src)
 * [Static Keyword](https://github.com/Annihilator708/cpp_adventure/tree/master/Static/src)
+
+### Extra
+* [Bit Shifting]()
