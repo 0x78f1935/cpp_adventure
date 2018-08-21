@@ -73,5 +73,6 @@ The applications you find here are part of a cpp course.
 * [Twos Complement](https://github.com/Annihilator708/cpp_adventure/tree/master/TwosComplement/src)
 * [Static Keyword](https://github.com/Annihilator708/cpp_adventure/tree/master/Static/src)
 
-### Extra
+### Bits
 * [Bit Shifting](https://github.com/Annihilator708/cpp_adventure/tree/master/BitShifting/src)
+* [Bitwise "And"](https://github.com/Annihilator708/cpp_adventure/tree/master/Bitwise_And/src)
